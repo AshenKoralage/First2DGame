@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CoinScript : MonoBehaviour
 {
+    public int score = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +18,9 @@ public class CoinScript : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D collider)
     {
-        Debug.Log("Trigged");
+        Destroy (gameObject);
+        score = score+5;
+        Debug.Log("Score"+score);
 
     }
     

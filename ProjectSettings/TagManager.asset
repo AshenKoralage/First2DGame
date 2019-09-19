@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - FallDetector
+  - CheckPoint
   layers:
   - Default
   - TransparentFX
@@ -13,7 +15,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Ground
   - 
   - 
   - 
@@ -38,6 +40,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: bg
+    uniqueID: 3504404517
+    locked: 0
+  - name: mid
+    uniqueID: 3967264121
+    locked: 0
+  - name: fg
+    uniqueID: 3386189219
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
